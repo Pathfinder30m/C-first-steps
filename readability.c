@@ -41,7 +41,7 @@ int letter (string text, int chars){
     }
     return letters;
 }
-//word counter seams to work fine
+
 int word (string text, int chars){
     int words=0;
     for(int i=0; i<=chars; i++){
@@ -51,7 +51,7 @@ int word (string text, int chars){
     }
     return words;
 }
-// work only without MR. MS. etc...
+
 int sentence (string text, int chars){
     int sentences=0;
 
